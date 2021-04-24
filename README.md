@@ -49,3 +49,44 @@ Q4 : How to find length of a javascript object ?
     }
 
     console.log(data())
+
+Q5 : How to merge properties of two objects dynamically in javascript ?
+
+        const mergeProp = () => {
+            let x = {
+                id:1,
+                name: 'foo'
+            }
+            let y = {
+                p1 = "property1"
+                p2 = "property2"
+            }
+            let z = {...x,...y}
+            console.log(z) 
+        }
+        mergeProp()
+
+Q6 : How to Check whether a string contains a substring or not in javascript ?
+
+    const checkString = () => {
+        let a = "FooBar"
+        console.log(a.includes(oo)) #True
+        console.log(a.includes(xy)) #False
+    }
+    checkString()
+
+Q7 : How to Remove a specific item from an array ?
+
+    const Remove = () => {
+        let A1 = [1,2,3,4,5,6,7,8]
+        let remove = A1.filter(x=> x !== 1) 1 removed from the array
+        console.log(remove) # [2,3,4,5,6,7,8]
+        }
+    Remove()
+
+Q8 : How to get Current URL using Javascript?
+
+    const getUrl = () => {
+        return window.location.href
+    }
+    console.log(getUrl())
