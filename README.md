@@ -90,3 +90,68 @@ Q8 : How to get Current URL using Javascript?
         return window.location.href
     }
     console.log(getUrl())
+
+Q9 : How to insert item in an array at specific index in javascript?
+
+    const insertItem = () => {
+        let arr = [1,2,3,4,5,6,7,8,9]
+        arr.splice(0,1,0) #insert at index 0 = 0
+        console.log(arr)
+    }
+    insertItem()
+
+Q10 : How to loop through an object in javascript.
+
+    const Loop = () => {
+        let obj = {
+            id : 1,
+            name: 'foo',
+        }
+
+        for(let i of Object.keys(obj)) {
+            console.log(`${i} = ${obj[i]}`)
+        }
+    }
+    Loop()
+
+Q11 : How to replace all the occurrences of a string in javascript ?
+
+    const replaceString = () => {
+        let string = "FooBar"
+
+        let newString = string.replaceAll('F','T')
+
+        console.log(newString)
+    }
+    replaceString()
+
+Q12 : How to round to two decimal value in javascript ?
+
+    const roundOff = () => {
+        
+        let a = 2.788
+        
+        let b = Math.round(a)
+
+        console.log(b)
+    }
+    roundOff()
+
+Q13 : How to check if object is an array in javascript ?
+
+    const checkObject = () => {
+
+        let r = {
+            id : 1,
+        }
+
+        console.log(Array.isArray(r)) #False
+
+        let s = [{
+            id : 1,
+        }]
+
+        console.log(Array.isArray(s)) #True
+    }
+
+    checkObject()
