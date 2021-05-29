@@ -1,9 +1,6 @@
-## JavaScript Practical Question
+# <span style="color:Orange"> JavaScript Practical Question </span>
 
-<br />
-<br />
-
-Q1 : How to get first n elements in an array ?
+### <span style="color:pink"> Q1 : How to get first n elements in an array ? </span>
 
     const data = () => {
         let x = [1,2,3,4,5,6,7,8,9]
@@ -12,7 +9,7 @@ Q1 : How to get first n elements in an array ?
 
     data()
 
-Q2 : How to check if an array includes a value in javascript ?
+### <span style="color:#845ec2"> Q2 : How to check if an array includes a value in javascript ? </span>
 
     const data = () => {
         let x = [1,2,3,4,5,6,7,8]
@@ -23,7 +20,7 @@ Q2 : How to check if an array includes a value in javascript ?
     data()
 
 
-Q3 : How to remove a property from javascript object ?
+### <span style="color:#00ff7f">Q3 : How to remove a property from javascript object ?</span>
 
     const Property = () => {
         let Obj1 = {
@@ -37,7 +34,7 @@ Q3 : How to remove a property from javascript object ?
 
     Property()
 
-Q4 : How to find length of a javascript object ?
+### <span style="color:#5bc0de"> Q4 : How to find length of a javascript object ? </span>
 
     const data = () => {
         let Obj2 = {
@@ -50,7 +47,7 @@ Q4 : How to find length of a javascript object ?
 
     console.log(data())
 
-Q5 : How to merge properties of two objects dynamically in javascript ?
+### <span style="color:#cdb071"> Q5 : How to merge properties of two objects dynamically in javascript ? </span>
 
         const mergeProp = () => {
             let x = {
@@ -66,7 +63,7 @@ Q5 : How to merge properties of two objects dynamically in javascript ?
         }
         mergeProp()
 
-Q6 : How to Check whether a string contains a substring or not in javascript ?
+### <span style="color:#a178df"> Q6 : How to Check whether a string contains a substring or not in javascript ? </span>
 
     const checkString = () => {
         let a = "FooBar"
@@ -75,7 +72,7 @@ Q6 : How to Check whether a string contains a substring or not in javascript ?
     }
     checkString()
 
-Q7 : How to Remove a specific item from an array ?
+### <span style="color:#ff8066"> Q7 : How to Remove a specific item from an array ? </span>
 
     const Remove = () => {
         let A1 = [1,2,3,4,5,6,7,8]
@@ -84,14 +81,14 @@ Q7 : How to Remove a specific item from an array ?
         }
     Remove()
 
-Q8 : How to get Current URL using Javascript?
+### <span style="color:#bbf1fa"> Q8 : How to get Current URL using Javascript? </span>
 
     const getUrl = () => {
         return window.location.href
     }
     console.log(getUrl())
 
-Q9 : How to insert item in an array at specific index in javascript?
+### <span style="color:#ffe9d2"> Q9 : How to insert item in an array at specific index in javascript ? </span>
 
     const insertItem = () => {
         let arr = [1,2,3,4,5,6,7,8,9]
@@ -100,7 +97,7 @@ Q9 : How to insert item in an array at specific index in javascript?
     }
     insertItem()
 
-Q10 : How to loop through an object in javascript.
+### <span style="color:#8e6a4c">Q10 : How to loop through an object in javascript. </span>
 
     const Loop = () => {
         let obj = {
@@ -114,37 +111,33 @@ Q10 : How to loop through an object in javascript.
     }
     Loop()
 
-Q11 : How to replace all the occurrences of a string in javascript ?
+### <span style="color:#fe5564"> Q11 : How to replace all the occurrences of a string in javascript ? </span>
 
     const replaceString = () => {
         let string = "FooBar"
-
         let newString = string.replaceAll('F','T')
 
         console.log(newString)
     }
     replaceString()
 
-Q12 : How to round to two decimal value in javascript ?
+### <span style="color:#bc6ff1"> Q12 : How to round to two decimal value in javascript ? </span>
 
     const roundOff = () => {
         
         let a = 2.788
-        
         let b = Math.round(a)
-
         console.log(b)
     }
     roundOff()
 
-Q13 : How to check if object is an array in javascript ?
+### <span style="color:#fecd1a"> Q13 : How to check if object is an array in javascript ?
 
     const checkObject = () => {
 
         let r = {
             id : 1,
         }
-
         console.log(Array.isArray(r)) #False
 
         let s = [{
@@ -153,5 +146,45 @@ Q13 : How to check if object is an array in javascript ?
 
         console.log(Array.isArray(s)) #True
     }
-
     checkObject()
+
+### <span style="color:#278efc"> Q14: How to Find object and index of object based on id in an array in javascript ? </span>
+
+    const foo = () => {
+
+        let a = [{id:1, name: 'foo'}, {id:2, name: 'bar'}]
+
+        console.log(x.find(data => data.id === 2))
+        console.log(x.findIndex(data => data.id === 2))
+    }
+    foo()
+
+### <span style="color:#6ef2d3">Q15: How to return unique values from an array in javascript ?
+
+    const unique = () => {
+        let x = [1,2,3,3,4,4,5,'a','a','b']
+
+        console.log(...new Set(x))
+    }
+    unique()
+
+### <span style="color:#f8a5ff"> Q16: How to Open url in new tab in javascript ? </span>
+
+    const newTab = () => {
+        window.open('https://github/AliZaiN-157/')
+    }
+
+    newTab()
+
+
+### <span style="color:#e2e7eb"> Q17: How to Check if property exists in an object in javascript ? </span>
+
+    const Check = () => {
+
+        let obj = {
+            id: 1,
+            name: 'foo',
+        }
+    console.log('key' in obj) #false
+    console.log('name' in obj) #true
+    }
